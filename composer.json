@@ -1,0 +1,36 @@
+{
+    "name": "maksim/test-task1",
+    "description": "TestTask1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maksimSichkar",
+            "email": "msichkar1997@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-pdo": "*",
+        "ext-ctype": "*",
+        "ext-exif": "*",
+        "nesbot/carbon": "^2.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "testTask1\\": ""
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@code-sniffer"
+        ],
+        "post-update-cmd": [
+            "@code-sniffer"
+        ]
+    }
+}
