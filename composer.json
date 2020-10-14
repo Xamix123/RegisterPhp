@@ -14,7 +14,8 @@
         "ext-pdo": "*",
         "ext-ctype": "*",
         "ext-exif": "*",
-        "nesbot/carbon": "^2.41"
+        "nesbot/carbon": "^2.41",
+        "php": "^7.4.9"
     },
     "autoload": {
         "psr-4": {

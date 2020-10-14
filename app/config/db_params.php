@@ -3,6 +3,6 @@ return [
     'host' => 'localhost',
     'dbname' => 'test_task1',
     'user' => 'root',
-    'password' => 'кщще',
+    'password' => '',
     'charset' => 'utf8'
 ];

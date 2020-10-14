@@ -4,9 +4,9 @@ namespace testTask1\app\view;
 
 class View
 {
-    protected array $data;
+    protected $data;
 
-    private string $template;
+    private $template;
 
     public function __construct($template)
     {

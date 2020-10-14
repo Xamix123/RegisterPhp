@@ -14,13 +14,12 @@
                     </div>
                     <?php endif; ?>
 
-                        <h2>Регистрация</h2>
                         <form action ="#" method="post">
                             <label for="login" class="sr-only">Login</label>
                             <input type="text" name="login" id="login" class="form-control" placeholder="Login" required autofocus>
                             <label for="password" class="sr-only">Password</label><br>
                             <input type="password" name="password" id="password" class="form-control" placeholder="Password" required><br>
-                            <input name="submit" class="btn btn-lg btn-primary btn-block" type="submit"/>
+                            <input name="submit" class="btn btn-lg btn-primary btn-block" value="Register" type="submit"/>
                         </form>
                 </div>
             </div>
